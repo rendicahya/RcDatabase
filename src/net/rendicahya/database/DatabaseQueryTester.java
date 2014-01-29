@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class DatabaseQueryTester {
+public final class DatabaseQueryTester {
 
     public static boolean test(Connection connection) {
         PreparedStatement statement;
