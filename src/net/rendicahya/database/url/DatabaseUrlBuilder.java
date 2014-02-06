@@ -1,4 +1,4 @@
-package net.rendicahya.database;
+package net.rendicahya.database.url;
 
 public final class DatabaseUrlBuilder {
 

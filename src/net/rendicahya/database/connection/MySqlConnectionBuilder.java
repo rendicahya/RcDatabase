@@ -1,5 +1,6 @@
-package net.rendicahya.database;
+package net.rendicahya.database.connection;
 
+import net.rendicahya.database.url.DatabaseURL;
 import java.sql.Connection;
 import java.sql.SQLException;
 

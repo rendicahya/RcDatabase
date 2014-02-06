@@ -1,9 +1,9 @@
-package net.rendicahya.database;
+package net.rendicahya.database.url;
 
-public final class MySqlUrlBuilder {
+public final class MariaDbUrlBuilder {
 
     public static DatabaseURL build(String host, int port, String name, String parameter) {
-        return DatabaseUrlBuilder.build("jdbc:mysql", host, port, name, parameter);
+        return DatabaseUrlBuilder.build("jdbc:mariadb", host, port, name, parameter);
     }
 
     public static DatabaseURL build(String host, String name, String parameter) {
