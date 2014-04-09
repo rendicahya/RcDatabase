@@ -7,9 +7,7 @@ import java.sql.SQLException;
 
 public final class DatabaseConnectionBuilder {
 
-    public static Connection build(String driver, DatabaseURL url, String username, String password) throws ClassNotFoundException, SQLException {
-        Class.forName(driver);
-
+    public static Connection build(DatabaseURL url, String username, String password) throws ClassNotFoundException, SQLException {
         return DriverManager.getConnection(url.toString(), username, password);
     }
 }
